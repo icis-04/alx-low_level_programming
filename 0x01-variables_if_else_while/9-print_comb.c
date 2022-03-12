@@ -1,6 +1,6 @@
 #include <stdio.h>
  /**
-  * main - Entry point
+  * main - prints number cominations using putchar
   *
   * Return: Always 0 (Success)
   */
