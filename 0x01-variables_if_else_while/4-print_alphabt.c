@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main -prints the alphabet except c and a
+ * main - Entry point
  *
- * (Return:0  on succes;
+ * Return:0  on Succes;
  */
 int main(void)
 {
 char c = 'a';
-while(c <= 'z')
+while (c <= 'z')
 {
-	if (c != 'q' && c!='e')
+	if (c != 'q' && c != 'e')
 {
 	putchar(c);
 }
