@@ -1,4 +1,4 @@
-#include <std.io.h>
+#include <stdio.h>
 /**
  * main -prints the alphabet except c and a
  *
