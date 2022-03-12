@@ -1,9 +1,9 @@
 #include <stdio.h>
- /**
-  * main - prints number cominations using putchar
-  *
-  * Return: Always 0 (Success)
-  */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
