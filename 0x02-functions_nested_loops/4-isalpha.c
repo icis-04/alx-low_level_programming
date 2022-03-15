@@ -2,7 +2,7 @@
 /**
  * _isalpha - checks for upper case letters
  * Return: 1 on Success and 0 if anything else.
- * @c - input.
+ * @c: input.
  */
 
 int _isalpha(int c)
