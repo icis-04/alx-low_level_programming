@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ * print_alphabet - prints small letters 10times.
+ */
+void print_alphabet_x10(void)
+{
+int i = 11, j;
+while (i < 11)
+{
+j = 'a';
+while (j <= 'z')
+{
+_putchar(j);
+j++;
+}
+_putchar('\n');
+i--;
+}
+}

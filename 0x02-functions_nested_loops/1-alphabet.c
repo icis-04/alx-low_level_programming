@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*print_alphabet-abcd.   
-*Return: Always 0.
+*print_alphabet
 */
 void print_alphabet(void)
 {
