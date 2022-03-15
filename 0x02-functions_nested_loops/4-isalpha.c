@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _isalpha - ABCD
- * Returns: 0 or 1.
- * c - char
+ * Return: 1 on Success and 0 if anything else.
+ * @c - char
  */
 
 int _isalpha(int c)
