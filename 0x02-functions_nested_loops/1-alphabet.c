@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - printsa-z.   
+ *print_alphabet - abcd.   
  * Return: Always 0.
  */
 void print_alphabet(void)
