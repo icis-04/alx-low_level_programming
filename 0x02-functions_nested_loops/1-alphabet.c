@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- * print_alphabet - prints a-z   
+ * print_alphabet - printsa-z   
  * Return: Always 0.
  */
-
 void print_alphabet(void)
 {
 int c;
