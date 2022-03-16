@@ -17,5 +17,5 @@ else if (c < 0)
 {
 last_number = (c % 10) * -1
 }	
-return (0);
+return (last_number);
 }

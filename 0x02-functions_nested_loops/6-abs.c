@@ -9,14 +9,15 @@ int _abs(int i)
 if (i >= 0)
 {
 i = i * 1;
-_putchar(i);
+}
+else if (i == 0)
+{
+i = 0;
 }
 else if (i < 0)
 {
 i = i * -1;
-_putchar(j);
 }
-_putchar('\n');
-return (0);
+return (i);
 }
 
