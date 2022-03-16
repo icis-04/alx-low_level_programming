@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print sign - entry point
+ * print_sign - entry point
  * deccription: checks for + or -
  * @n: input
- * return: 1, 0 or -1.
+ * Return: print 1, 0 or -1
  */
 int print_sign(int n)
 {

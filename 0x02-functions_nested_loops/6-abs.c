@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * _abs - entry point
- * returns: 0 success
+ * Returns: 0 success
  * @int: input
  */
 int _abs(int i)
 {
-int j = 0;
 if (i >= 0)
 {
+i = i * 1;
 _putchar(i);
 }
 else if (i < 0)
 {
-j += 0 - i;
+i = i * -1;
 _putchar(j);
 }
 _putchar('\n');
