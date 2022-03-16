@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - entry point
- * Returns: i
+ * Returns: absolute value of s number
  * @i: input
  */
 int _abs(int i)
