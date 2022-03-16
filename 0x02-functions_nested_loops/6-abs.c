@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _abs - entry point
- * Returns: 0 success
- * @int: input
+ * Returns: i
+ * @i: input
  */
 int _abs(int i)
 {
