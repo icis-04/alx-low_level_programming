@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * _abs - entry point
- * Description: prints the absolute value of a number
+ * _abs - prints the absolute value of a number
  * Returns: absolute value of s number
  * @i: input
  */
