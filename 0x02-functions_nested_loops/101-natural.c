@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-int c;
+int c = 0;
 int result = 0;
-for (c = 0; c < 1024; c++)
+while (c < 1024)
 {
 if ((c % 3 == 0) || (c % 5 == 0))
 {
 result = result + c;
 }
+c++
 }
 return (result);
 }
