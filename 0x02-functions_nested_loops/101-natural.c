@@ -16,5 +16,7 @@ result = result + c;
 }
 c++;
 }
-return (result);
+_putchar(result);
+_putchar('\n');
+return(0);
 }
