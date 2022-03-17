@@ -2,7 +2,7 @@
 /**
  * _isupper - entry point
  * @c: input
- * Return: 1 (success) or 0 (otherwise)
+ * Return: return 1 for uppercase and 0 otherwise
  */
 int _isupper(int c)
 {
