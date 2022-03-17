@@ -12,7 +12,7 @@ if ((a != '2') || (a != '4'))
 _putchar(a);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 
 
