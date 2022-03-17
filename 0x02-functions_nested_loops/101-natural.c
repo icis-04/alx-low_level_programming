@@ -14,4 +14,4 @@ if ((c % 3 == 0) || (c % 5 == 0))
 {
 result = result + c;
 }
-return (result)
+return (result);
