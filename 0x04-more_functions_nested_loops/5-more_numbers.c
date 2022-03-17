@@ -8,9 +8,7 @@ int i = 0;
 int j;
 while (i < 10)
 {
-for (j = '0'; j <= '14'
-{
- (j);
+
 j++;
 }
 i++;
