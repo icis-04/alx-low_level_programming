@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -16,6 +16,6 @@ result = result + c;
 }
 c++;
 }
-return (result);
+printf("%d\n", result);
 return (0);
 }
