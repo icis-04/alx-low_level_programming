@@ -18,13 +18,18 @@ while( i < n)
 j = 0;
 while( j< 0)
 {
+if (j == i)
+{
+_putchar('\\');
+}
+else if (j < i)
+{
 _putchar(' ');
+}
 j++;
 }
-_putchar('\\');
 _putchar('\n');
 i++;
 }
-_putchar('\n');
 }
 }
