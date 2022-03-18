@@ -3,7 +3,7 @@
  * print_triangle - prints a tiangle
  * @size: size of the triangle
  */
-void print_tringle(int size)
+void print_triangle(int size)
 {
 if (size <= 0)
 {
