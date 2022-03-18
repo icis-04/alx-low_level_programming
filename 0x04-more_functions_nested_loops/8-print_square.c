@@ -3,7 +3,7 @@
  * print_square - Entry point
  * @size: input
  */
-void pritn_square(int size)
+void print_square(int size)
 {
 if (size <= 0)
 {
