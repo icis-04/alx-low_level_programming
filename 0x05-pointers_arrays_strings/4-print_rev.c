@@ -1,4 +1,4 @@
-#include "mauin.h"
+#include "main.h"
 /**
  * print_rev - Entry point
  * @s: input
