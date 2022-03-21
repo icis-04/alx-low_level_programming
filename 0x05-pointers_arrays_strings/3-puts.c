@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _putchar - Entry point
+ * _puts - Entry point
  * @str: input
  */
 void _puts(char *str)
