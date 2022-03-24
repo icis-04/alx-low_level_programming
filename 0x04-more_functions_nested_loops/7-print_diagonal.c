@@ -13,10 +13,10 @@ _putchar('\n');
 }
 else
 {
-while(i < n)
+while (i < n)
 {
 j = 0;
-while(j <= i)
+while (j <= i)
 {
 if (j == i)
 {
