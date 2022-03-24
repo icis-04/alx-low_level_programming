@@ -16,7 +16,7 @@ if (j < n)
 dest[j] = src[j];
 }
 }
-for (; j < n; j++)
+for ( ; j < n; j++)
 {
 dest[j] = '\0';
 }
