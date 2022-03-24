@@ -7,15 +7,23 @@
  */
 int print_last_digit(int c)
 {
-int last_number;
-if (c >= 0)
+int last_number, result;
+if (c > 0)
 {
 last_number = c % 10;
 _putchar(last_number);
 }
 else if (c < 0)
 {
-last_number = (c % 10) * -1
-}	
-return (last_number);
+result = c * -1;
+last_number = result % 10;
+_putchar(last_number);
+}
+else
+{
+last_number = 0;
+_putchar(last_number);
+}
+_putchar('0' + last_digit);
+return (last_digit);
 }
