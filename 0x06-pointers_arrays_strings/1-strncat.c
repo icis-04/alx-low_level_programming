@@ -21,9 +21,9 @@ if (j < n)
 dest[j + i] = src[j];
 }
 else
-{
 dest[j + i] = '\0';
 }
 return (dest);
 }
-}
+
+
