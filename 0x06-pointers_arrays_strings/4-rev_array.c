@@ -4,7 +4,7 @@
  * @a: First input
  * @n: Second input
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
 int i = 0;
 int b = 0;
