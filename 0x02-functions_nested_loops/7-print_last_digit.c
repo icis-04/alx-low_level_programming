@@ -24,6 +24,6 @@ else
 last_number = 0;
 _putchar(last_number);
 }
-_putchar('0' + last_digit);
-return (last_digit);
+_putchar('0' + last_number);
+return (last_number);
 }
