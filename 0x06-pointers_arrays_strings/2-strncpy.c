@@ -2,7 +2,7 @@
 /**
  * _strncpy - Entry point
  * @dest: First input
- * @char: Second input
+ * @src: Second input
  * @n: Third input
  * Return: copies string
  */
@@ -16,7 +16,7 @@ if (j < n)
 dest[j] = src[j];
 }
 }
-for ( ; j < n; j++)
+for (; j < n; j++)
 {
 dest[j] = '\0';
 }
