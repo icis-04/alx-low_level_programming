@@ -16,7 +16,7 @@ else
 while( i < n)
 {
 j = 0;
-while( j< 0)
+while( j <= i)
 {
 if (j == i)
 {
