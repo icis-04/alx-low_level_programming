@@ -6,8 +6,8 @@
  */
 char *leet(char *a)
 {
-char s[] = "aAeEoOtTlL";
-char p[] = "4433007711";
+char s[10] = "aAeEoOtTlL";
+char p[10] = "4433007711";
 int i = 0;
 int j = 0;
 while (a[i] != '\0')
