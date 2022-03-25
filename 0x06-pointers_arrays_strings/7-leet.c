@@ -4,7 +4,8 @@
  * @a: array
  * Return: a
  */
-char *leet(char *a);
+char *leet(char *a)
+{
 char s[] = "aAeEoOtTlL";
 char p[] = "4433007711";
 int i = 0;
