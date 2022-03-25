@@ -18,11 +18,11 @@ while (s[i] != '\0')
 for (j = 0; spec[j] != '\0'; j++)
 {
 if (s[i - 1] == spec[j] && s[i] <= 122 && s[i] >= 97)
-{
 s[i] = s[i] - 32;
 }
 i++;
 }
 return (s);
 }
+
 
