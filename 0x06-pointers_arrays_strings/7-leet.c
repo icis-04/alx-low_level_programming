@@ -12,8 +12,7 @@ int i = 0;
 int j = 0;
 while (a[i] != '\0')
 {
-for (j = 0; s[i] != '\0' && a[i] != s[j]; j++)
-;
+for (j = 0; s[i] != '\0' && a[i] != s[j]; j++);
 if (j < 10)
 {
 a[i] = p[j];
