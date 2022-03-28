@@ -17,10 +17,10 @@ if (s[i] == accept[j])
 break;
 }
 }
-if (s[j] != accept[j])
+if (s[i] != accept[j])
 break;
 }
-return (a);
+return (i);
 }
 
 
