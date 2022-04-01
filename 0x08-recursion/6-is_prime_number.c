@@ -17,7 +17,7 @@ return (1);
 }
 else
 {
-return (_prime(i + 1, n);
+return (_prime(i + 1, n));
 }
 return (0);
 }
