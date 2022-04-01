@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _square - finds square of a number 
+ *_square - finds square of a number 
  * @n: input
- * @i: input 
+ *@i: input 
  * Return: returns square of the input
  */
 int _square(int i, int n)
