@@ -13,8 +13,7 @@ int product = 1;
 int i;
 if (argc < 3)
 {
-fprintf(stderr, "Error\n");
-exit(0);
+print( "Error\n");
 }
 else if  ((argc > 1) && (argc == 3))
 {
