@@ -16,7 +16,7 @@ if (argc < 3)
 fprintf(stderr, "Error\n");
 exit(0);
 }
-else if  (argc > 1 && argc == 3)
+else if  ((argc > 1) && (argc == 3))
 {
 for (i = 1; i < argc; i++)
 {
