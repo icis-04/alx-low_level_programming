@@ -4,6 +4,7 @@
  * main - entry  point
  * @argc: argument count
  * @argv: argument list
+ * Return: returns name of file and (0) for success
  */
 int main(int argc, char* argv[])
 {
