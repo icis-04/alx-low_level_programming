@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - duplicate a string to a memory location 
+ *_strdup - duplicate a string to a memory location 
  * @str: input string to be duplicated
  * Return: returns duplicated string
  */

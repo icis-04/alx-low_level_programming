@@ -22,12 +22,12 @@ i++;
 for (j = 0; j < s2[j]; j++)
 ;
 j++;
-dest = malloc((sizeof(char) * i) +(sizeof(char) * j) + 1);
+dest = malloc((sizeof(char) * i) +(sizeof(char) * j) +1);
 if (dest == NULL)
 {
 return (NULL);
 }
-while (*s1 != '\0')	
+while (*s1 != '\0')
 {
 dest[h] = *s1;
 s1++;
