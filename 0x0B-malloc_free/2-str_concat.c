@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *str_concat - concatenates two strings to a memeory space
+ * str_concat - concatenates two strings to a memeory space
  * @s1: first string input
  * @s2: second string input
- * @Return: returns the concatenated string(success) or NULL(failure)
+ * Return: returns the concatenated string(success) or NULL(failure)
  */
 char *str_concat(char *s1, char *s2)
 {
