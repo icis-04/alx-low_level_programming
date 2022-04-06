@@ -1,18 +1,17 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - concatenates two strings to a memeory space
+ *str_concat - concatenates two strings to a memeory space
  * @s1: first string input
  * @s2: second string input
  * @Return: returns the concatenated string(success) or NULL(failure)
  */
 char *str_concat(char *s1, char *s2)
 {
-int f;
 char *dest;
 int j;
 int i;
-int h;
+int h = 0;
 if (s1 == 0)
 s1 = "";
 if (s2 == 0)
@@ -28,8 +27,6 @@ if (dest == NULL)
 {
 return (NULL);
 }
-h = 0;
-f = 0;
 while (*s1 != '\0')	
 {
 dest[h] = *s1;
@@ -38,11 +35,11 @@ h++;
 }
 while (*s2 != '\0')
 {
-dest[h + f] = *s2;
+dest[h] = *s2;
 s2++;
-f++;
+h++;
 }
-dest[i] = '\0';
+dest[h] = '\0';
 return (dest);
 }
 
