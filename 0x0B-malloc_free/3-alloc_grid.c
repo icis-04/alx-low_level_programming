@@ -4,11 +4,11 @@
  * alloc_grid - changes a value in a memory space grid
  * @width: number of columns
  * @height: number of rows
- * Retun: pointer
+ * Return: pointer
  */
 int **alloc_grid(int width, int height)
 {
-int **i,j, k, h;
+int **i, j, k, h;
 if (width == 0 || height == 0)
 {
 return (NULL);
