@@ -4,6 +4,7 @@
  * string_nconcat - concatenates with s1 with n bytes of s2
  * @s1: first input
  * @s2: second input
+ * n: integer
  * Return: pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -19,7 +20,6 @@ for (index = 0; s1[index]; index++)
 {
 i++;
 }
-i++;
 rest = malloc(sizeof(char) * (i +1));
 if (rest == NULL)
 {
