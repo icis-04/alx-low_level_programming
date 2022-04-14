@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 #include <stddef.h>
+#include <stdio.h>
 /**
  * array_iterator - prints element of an array
  * @array: array of values
