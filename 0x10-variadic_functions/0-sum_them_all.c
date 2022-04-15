@@ -4,6 +4,7 @@
 /**
  * sum_them_all - sums up all the integers
  * @n: inputs
+ * @...: other variables
  * @Return: integers sum
  */
 int sum_them_all(const unsigned int n, ...)
