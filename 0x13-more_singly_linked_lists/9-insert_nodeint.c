@@ -1,5 +1,5 @@
-include "lists.h"
-
+#include "lists.h"
+#include <stdlib.h>
 /**
  *insert_nodeint_at_index - insert node at a nth position
  *@head: double pointer to a head
