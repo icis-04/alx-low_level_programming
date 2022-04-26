@@ -11,7 +11,7 @@ while (head != NULL)
 {
 tmp = head->next;
 free(head);
-head = next;
+head = tmp;
 }
 }
 
